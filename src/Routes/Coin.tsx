@@ -276,7 +276,7 @@ const Coin = ({ toggleTheme, theme }: CoinProps) => {
               </OverviewItem>
               <OverviewItem>
                 <span>Price</span>
-                {/* <span>${tickersData?.quotes.USD.price.toFixed(3)}</span> */}
+                <span>${tickersData?.quotes.USD.price.toFixed(3)}</span>
               </OverviewItem>
             </Overview>
             <Description>{infoData?.description}</Description>
@@ -303,9 +303,9 @@ const Coin = ({ toggleTheme, theme }: CoinProps) => {
               <Route path={`/:coinId/chart`}>
                 <Chart coinId={coinId} />
               </Route>
-              {/* <Route path={`/:coinId/price`}>
+              <Route path={`/:coinId/price`}>
                 <Price data={tickersData} />
-              </Route> */}
+              </Route>
             </Switch>
           </>
         )}
