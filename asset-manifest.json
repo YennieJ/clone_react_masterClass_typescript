@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/clone_react_masterClass_typescript/static/js/main.bf4c3f57.js",
+    "main.js": "/clone_react_masterClass_typescript/static/js/main.cfd60a33.js",
     "index.html": "/clone_react_masterClass_typescript/index.html",
-    "main.bf4c3f57.js.map": "/clone_react_masterClass_typescript/static/js/main.bf4c3f57.js.map"
+    "main.cfd60a33.js.map": "/clone_react_masterClass_typescript/static/js/main.cfd60a33.js.map"
   },
   "entrypoints": [
-    "static/js/main.bf4c3f57.js"
+    "static/js/main.cfd60a33.js"
   ]
 }
