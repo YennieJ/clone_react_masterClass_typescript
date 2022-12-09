@@ -303,9 +303,9 @@ const Coin = ({ toggleTheme, theme }: CoinProps) => {
               <Route path={`/:coinId/chart`}>
                 <Chart coinId={coinId} />
               </Route>
-              <Route path={`/:coinId/price`}>
+              {/* <Route path={`/:coinId/price`}>
                 <Price data={tickersData} />
-              </Route>
+              </Route> */}
             </Switch>
           </>
         )}
