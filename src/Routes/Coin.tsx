@@ -241,7 +241,7 @@ const Coin = ({ toggleTheme, theme }: CoinProps) => {
     //   refetchInterval: 5000,
     // }
   );
-  console.log(tickersData?.quotes.USD);
+
   const loading = infoLoading || tickersLoading;
   return (
     <>
@@ -276,9 +276,9 @@ const Coin = ({ toggleTheme, theme }: CoinProps) => {
               </OverviewItem>
               <OverviewItem>
                 <span>Price</span>
-                {tickersData && (
+                {/* {tickersData && (
                   <span>${tickersData?.quotes.USD.price.toFixed(3)}</span>
-                )}
+                )} */}
               </OverviewItem>
             </Overview>
             <Description>{infoData?.description}</Description>
